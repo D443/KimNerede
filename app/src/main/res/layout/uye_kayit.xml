@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/arka">
+
+    <TextView android:text="GpsTakipSistemi 2015 Düzce
+     Kayit İşlemi "
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:textColor="#CC3300"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etAd"
+        android:hint="Adiniz"
+        android:layout_margin="15dp"
+        android:textColorHint="#fff"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etSoyad"
+        android:hint="Soyadınız"
+        android:layout_margin="15dp"
+        android:textColorHint="#fff"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etKullanici"
+        android:hint="Kullanici Adi"
+        android:layout_margin="15dp"
+        android:textColorHint="#fff"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etSifre"
+        android:hint="Sifreniz"
+        android:layout_margin="15dp"
+        android:inputType="textPassword"
+        android:textColorHint="#fff"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kaydol"
+        android:id="@+id/btnKayitOl"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        style="@style/btnStyleOrange"/>
+    <TextView
+        android:id="@+id/txtview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        />
+
+</LinearLayout>

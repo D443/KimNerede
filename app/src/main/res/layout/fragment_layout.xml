@@ -1,0 +1,50 @@
+<com.soysalmustafa.kimnerede.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+    <!--  News Feed Button -->
+    <Button
+        android:id="@+id/btn_konum"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_konum"
+        android:text="Konumum" />
+
+    <!--  Friends Button -->
+    <Button
+        android:id="@+id/btn_nerdeyim"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_konum_bilgi"
+        android:text="Neredeyim" />
+
+    <!--  Messages Button -->
+    <Button
+        android:id="@+id/btn_arkadaslar"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_friends"
+        android:text="Arkadaşlarım" />
+
+    <!--  Places Button -->
+    <Button
+        android:id="@+id/btn_arkadas_istek"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_arkadas_istek"
+        android:text="Arkadaşlık İstekleri" />
+
+    <!--  Events Button -->
+    <Button
+        android:id="@+id/btn_arkadas_ara"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_arkadas_ara"
+        android:text="Arkadaş Ara" />
+
+    <!--  Photos Button -->
+    <Button
+        android:id="@+id/btn_yakinimdakiler"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_cevremdekiler"
+        android:text="Yakınımdakiler" />
+
+</com.soysalmustafa.kimnerede.DashboardLayout>
+

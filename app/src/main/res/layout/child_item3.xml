@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.soysalmustafa.kimnerede.ChildView3
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/lblExample"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right">
+            <Button
+                android:id="@+id/btnNerede"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="En Son Neredeydi"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="0dp"
+                android:layout_margin="15dp"
+                style="@style/btnStyleOrange"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</com.soysalmustafa.kimnerede.ChildView3>

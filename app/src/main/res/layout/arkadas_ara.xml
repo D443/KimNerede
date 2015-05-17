@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray">
+
+    <include layout="@layout/actionbar_layout" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/etKullanici"
+        android:hint="Kullanici Adi"
+        android:textColorHint="#fff"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ara"
+        android:id="@+id/btnAra"
+        style="@style/btnStyleOrange"
+        />
+    <ListView
+        android:id="@+id/listViewExample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp" >
+    </ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/txtSonuc"
+        android:layout_alignBottom="@+id/listViewExample"
+         />
+
+
+
+</LinearLayout>
+
